@@ -1,0 +1,207 @@
+.navBarContainer {
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  user-select: none;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+.btnContainer {
+  height: 8rem;
+  width: 60rem;
+  z-index: 0;
+  background: hsl(0%, 0%, 0% /0.1);
+  backdrop-filter: blur(1rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBarBtn {
+  list-style-type: none;
+  width: 12rem;
+  color: white;
+  font-family: "Vollkorn", serif;
+  font-size: 1.25rem;
+  text-align: center;
+  border: none;
+}
+.navBarBtn:hover {
+  border-bottom: 3px solid white;
+}
+
+.navBarSelected {
+  list-style-type: none;
+  width: 12rem;
+  color: white;
+  font-family: "Vollkorn", serif;
+  font-size: 1.25rem;
+  text-align: center;
+  border-bottom: 3px solid white;
+}
+
+.line {
+  position: relative;
+  left: 2%;
+  width: 50rem;
+  height: 1px;
+  background-color: #474952;
+  z-index: 1;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navNumbers {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.homeMenuBtnClose {
+  height: 3rem;
+  width: 3rem;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 2rem;
+  display: none;
+}
+
+.homeMenuBars {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  right: 5%;
+  top: 35%;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 2rem;
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .logo {
+    margin-left: 2rem;
+  }
+  .btnContainer {
+    display: none;
+  }
+  .btnContainer-Active {
+    color: white;
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    height: 100vh;
+    width: 15rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: hsl(0%, 0%, 0% /0.1);
+    backdrop-filter: blur(1rem);
+    z-index: 2;
+  }
+
+  .navBarBtn .navNumbers {
+    font-size: 0.9rem;
+  }
+
+  .navBarSelected .navNumbers {
+    font-size: 0.9rem;
+    width: 3rem;
+  }
+
+  .homeMenuBtn {
+    display: block;
+    position: relative;
+    right: 2rem;
+    top: 6%;
+  }
+  .homeMenuBars {
+    display: block;
+  }
+
+  .homeMenuBars-notActive {
+    display: none;
+  }
+
+  .line {
+    height: 0%;
+  }
+
+  .homeMenuBtnClose {
+    display: inline-block;
+    position: relative;
+    top: 5%;
+    left: 30%;
+    margin-bottom: 40%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .logo {
+    margin-left: 2rem;
+  }
+  .btnContainer {
+    display: none;
+  }
+  .btnContainer-Active {
+    color: white;
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    height: 100vh;
+    width: 15rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: hsl(0%, 0%, 0% /0.1);
+    backdrop-filter: blur(1rem);
+    z-index: 2;
+  }
+
+  .navBarBtn .navNumbers {
+    font-size: 0.9rem;
+  }
+
+  .navBarSelected .navNumbers {
+    font-size: 0.9rem;
+    width: 3rem;
+  }
+
+  .homeMenuBtn {
+    display: block;
+    position: relative;
+    right: 2rem;
+    top: 6%;
+  }
+  .homeMenuBars {
+    display: block;
+  }
+
+  .homeMenuBars-notActive {
+    display: none;
+  }
+
+  .line {
+    height: 0%;
+  }
+
+  .homeMenuBtnClose {
+    display: inline-block;
+    position: relative;
+    top: 5%;
+    left: 30%;
+    margin-bottom: 40%;
+  }
+}

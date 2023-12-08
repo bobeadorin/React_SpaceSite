@@ -1,0 +1,133 @@
+.containerCrew {
+  display: flex;
+  align-items: center;
+}
+
+.CrewContianerDescription {
+  margin-top: 5%;
+  color: white;
+  max-width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circleSelectorContainer {
+  display: flex;
+}
+
+.radioCircle {
+  background-color: #767a89;
+  margin: 1rem;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+}
+
+.radioCircle:hover {
+  background-color: white;
+}
+
+.member-position {
+  font-size: 2rem;
+}
+
+.crewName {
+  font-size: 2.6rem;
+}
+
+.crewDescription {
+  font-size: auto;
+}
+
+.crewIMG {
+  height: 40rem;
+  border-radius: 0%;
+}
+
+.crewContainer {
+  width: 30rem;
+}
+
+.imgContainer {
+  height: 40rem;
+  width: 40rem;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .containerCrew {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .crewContainer {
+    margin-top: 10%;
+    padding: 8%;
+  }
+  .crewIMG {
+    height: 20rem;
+  }
+  .imgContainer {
+    height: 20rem;
+    width: 20rem;
+    text-align: center;
+  }
+
+  .crewData-container {
+    padding: 0 4rem;
+  }
+
+  .CrewContianerDescription {
+    margin-top: 30%;
+    color: white;
+    max-width: 70%;
+    padding: 2rem;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .circleSelectorContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .containerCrew {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .crewContainer {
+    margin-top: 10%;
+    padding: 8%;
+  }
+  .crewIMG {
+    height: 30rem;
+  }
+  .imgContainer {
+    height: 30rem;
+    width: 30rem;
+    text-align: center;
+  }
+
+  .crewData-container {
+    padding: 0 4rem;
+  }
+
+  .CrewContianerDescription {
+    margin-top: 30%;
+    color: white;
+    max-width: 70%;
+    padding: 2rem;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .circleSelectorContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

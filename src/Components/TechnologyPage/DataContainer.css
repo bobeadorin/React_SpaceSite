@@ -1,0 +1,147 @@
+.technologyContainer {
+  margin-top: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+.dataContainer {
+  color: white;
+  display: flex;
+  gap: 15%;
+  width: 30%;
+}
+
+.circleSelector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 1px solid rgb(156, 153, 153);
+  color: rgb(156, 153, 153);
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.selectedCircle {
+  display: flex;
+  margin-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 1px solid rgb(156, 153, 153);
+  background-color: white;
+  color: rgb(156, 153, 153);
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.circleSelector:hover {
+  border-color: white;
+}
+
+.top-p {
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.articleDescription {
+  font-size: 1.5rem;
+}
+
+.technologyImg {
+  height: 35rem;
+}
+
+.pageNumber {
+  color: white;
+  position: absolute;
+  left: 20%;
+  top: 22%;
+  font-size: 2.5rem;
+  display: inline-block;
+  width: 30rem;
+}
+
+.nr {
+  margin-right: 10%;
+}
+
+@media (max-width: 480px) {
+  .technologyContainer {
+    flex-direction: column-reverse;
+  }
+  .technologyImg {
+    width: 100%;
+    height: 13rem;
+    margin-top: 20%;
+    margin-bottom: 10%;
+  }
+
+  .dataContainer {
+    color: white;
+    display: flex;
+    gap: 15%;
+    width: 100%;
+    margin: 0%;
+    flex-direction: column;
+  }
+  .circleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .information-container {
+    padding: 8%;
+  }
+  .title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  .top-p {
+    margin-bottom: 0.5rem;
+  }
+
+  .circleSelector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid rgb(156, 153, 153);
+    color: rgb(156, 153, 153);
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  .selectedCircle {
+    display: flex;
+    margin-bottom: 0.1rem;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid rgb(156, 153, 153);
+    background-color: white;
+    color: rgb(156, 153, 153);
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  .articleDescription {
+    font-size: 1rem;
+  }
+}

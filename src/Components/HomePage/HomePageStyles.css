@@ -1,0 +1,35 @@
+.containerHome {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: url("./assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.contentContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  align-items: center;
+  margin-top: 10%;
+}
+
+@media (max-width: 480px) {
+  .contentContainer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .containerHome {
+    background-image: url("./assets/home/background-home-mobile.jpg");
+
+    padding: 3rem;
+  }
+}
