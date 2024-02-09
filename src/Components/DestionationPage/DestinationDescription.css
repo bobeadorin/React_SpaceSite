@@ -132,16 +132,18 @@
   }
   .planetImgContainer {
     margin-right: 12%;
+    margin-top: 3rem;
   }
 
   .planetImg {
-    width: 30rem;
+    width: 20rem;
   }
 
   .planetBox {
     margin: 10% auto;
     width: 25rem;
     height: fit-content;
+    width: 80%;
   }
 
   .planetName {
@@ -151,14 +153,15 @@
     margin-bottom: 1rem;
   }
   .planetDescription {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
     text-align: justify;
   }
   .planetBtn {
     color: white;
     background-color: inherit;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 1rem;
   }
   .buttonContainer {

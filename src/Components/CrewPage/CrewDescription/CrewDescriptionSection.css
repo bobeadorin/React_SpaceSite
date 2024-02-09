@@ -2,6 +2,9 @@
   display: flex;
   align-items: center;
 }
+.crewContainer > p {
+  font-size: 1.5rem;
+}
 
 .CrewContianerDescription {
   margin-top: 5%;
@@ -30,15 +33,15 @@
 }
 
 .member-position {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .crewName {
-  font-size: 2.6rem;
+  font-size: 3.6rem;
 }
 
 .crewDescription {
-  font-size: auto;
+  font-size: 1.5rem;
 }
 
 .crewIMG {
@@ -129,5 +132,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .member-position {
+    font-size: 3rem;
+  }
+
+  .crewName {
+    font-size: 2.6rem;
+  }
+
+  .crewDescription {
+    font-size: 1.5rem;
   }
 }
